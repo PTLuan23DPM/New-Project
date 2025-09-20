@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             textBox1 = new TextBox();
+            button1 = new Button();
             SuspendLayout();
             // 
             // textBox1
@@ -40,11 +41,21 @@
             textBox1.Text = "Ttitle";
             textBox1.TextAlign = HorizontalAlignment.Center;
             // 
+            // button1
+            // 
+            button1.Location = new Point(116, 216);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 1;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1902, 1033);
+            Controls.Add(button1);
             Controls.Add(textBox1);
             Name = "Form1";
             Text = "Form1";
@@ -56,5 +67,6 @@
         #endregion
 
         private TextBox textBox1;
+        private Button button1;
     }
 }
