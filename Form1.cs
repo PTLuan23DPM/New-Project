@@ -9,6 +9,7 @@ namespace WinFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            string randomLine = "This is a random line for conflict testing";
         }
     }
 }
