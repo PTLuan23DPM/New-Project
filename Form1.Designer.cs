@@ -35,7 +35,7 @@
             // 
             textBox1.Location = new Point(617, 115);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
+            textBox1.Size = new Size(200, 27);
             textBox1.TabIndex = 0;
             textBox1.Text = "Ttitle";
             textBox1.TextAlign = HorizontalAlignment.Center;
